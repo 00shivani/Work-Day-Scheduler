@@ -1,10 +1,23 @@
+var currentDate =  moment().format('dddd, MMM Do YYYY');
+$("#currentDay").html(currentDate);
+var currentHour = moment().format("HH");
+var currentHourInt = parseInt(currentHour);
+var saveButton = $(".saveBtn");
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-$(function () {
-  // TODO: Add a listener for click events on the save button. This code should
-  // use the id in the containing time-block as a key to save the user input in
-  // local storage. HINT: What does `this` reference in the click listener
+$(document).ready(function () {
+
+  // "Save" button click listener
+  saveButton.on("click", function () {
+    // collecting user input and correlating hour value
+    var userInput = $(this).siblings(".description").val();
+    var timeBlock = $(this).parent().attr("id");
+    // saving time and user input values in local storage
+    localStorage.setItem(timeBlock, userInput);
+  })
+
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
