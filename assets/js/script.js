@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   // Variables
-  var currentDate =  dayjs().format('dddd, MMM Do YYYY');
+  var currentDate =  dayjs().format('dddd, MMM DD YYYY');
   var currentHour = dayjs().format("HH");
   var currentHourInt = parseInt(currentHour);
   var saveButton = $(".saveBtn");
