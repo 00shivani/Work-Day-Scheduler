@@ -4,20 +4,19 @@ A simple calendar application that allows a user to save events for each hour of
 ## Table of Contents:
 - [Technologies](#Technologies)
 - [Deployed URL](#Deployed-URL)
-- [Screenshots](Screenshots)
-- [Credits](Credits)
+- [Screenshots](#Screenshots)
+- [Credits](#Credits)
 
 ## Technologies Used: 
 1. HTML
 2. CSS
 3. JS
 
-## Deployed URL: https://main--subtle-dragon-7893e8.netlify.app/about
+## Deployed URL: [00shivani.github.io/Work-Day-Scheduler](https://00shivani.github.io/Work-Day-Scheduler/)
 
 ## Screenshots
-![image](https://github.com/00shivani/My-React-Portfolio/assets/126500106/135c2255-7a0b-451d-afcf-33c9b9d34484)
-![image](https://github.com/00shivani/My-React-Portfolio/assets/126500106/0d30cf20-ef51-4a8e-8947-2648936611c8)
-![image](https://github.com/00shivani/My-React-Portfolio/assets/126500106/b6d6720e-93da-4686-a60b-c0133ff8f070)
+![image](https://github.com/00shivani/Work-Day-Scheduler/assets/126500106/6c61760e-f348-40d9-af18-b8d9238d4dd2)
 
 ## Credits
 - chat GPT
+- basic internet questions
